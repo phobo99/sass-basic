@@ -1,0 +1,36 @@
+// ===THEME===
+// Dark, Light, Default
+$theme: Default;
+// === COLORS ===
+$body-background-color: #fff;
+$text-color: #222222;
+$theme-color: #170a48;
+$secondary-color: #f27731;
+$ternary-color: #ccf692;
+$link-color: $secondary-color;
+$menu-item-color: #fff;
+
+@if $theme == Dark {
+  $body-background-color: #22222a;
+  $text-color: #fff;
+  $theme-color: #43434a;
+  $secondary-color: #c24721;
+  $ternary-color: #698932;
+  $link-color: $secondary-color;
+  $menu-item-color: #fff;
+} @else if $theme == Light {
+  $body-background-color: #fff;
+  $text-color: #000;
+  $theme-color: #372a27;
+  $secondary-color: #d26741;
+  $ternary-color: #b9da63;
+  $link-color: $secondary-color;
+  $menu-item-color: #fff;
+}
+// === FONTS ===
+$text-font: Verdana, Arial, sans-serif;
+$heading-font: "Palatino Linotype", Georgia, serif;
+// === SIZES ===
+$header-height: 60px;
+$footer-height: 90px;
+$content-width: 960px;

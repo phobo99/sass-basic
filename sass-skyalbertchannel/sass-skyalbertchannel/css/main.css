@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=FiraSans);
+a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.col-2 {
+  width: 4rem;
+}
+
+.col-4 {
+  width: 8rem;
+}
+
+.col-6 {
+  width: 12rem;
+}
+
+.col-8 {
+  width: 16rem;
+}
+
+.col-10 {
+  width: 20rem;
+}
+
+.col-12 {
+  width: 24rem;
+}
+
+.icon-facebook-img {
+  background-image: url("/img/icons/icon-facebook");
+}
+
+.icon-twitter-img {
+  background-image: url("/img/icons/icon-twitter");
+}
+
+.icon-youtube-img {
+  background-image: url("/img/icons/icon-youtube");
+}
+
+.icon-zalo-img {
+  background-image: url("/img/icons/icon-zalo");
+}
+
+.icon-skype-img {
+  background-image: url("/img/icons/icon-skype");
+}
+
+.grid-12 {
+  width: 120%;
+}
+
+.grid-10 {
+  width: 100%;
+}
+
+.grid-8 {
+  width: 80%;
+}
+
+.grid-6 {
+  width: 60%;
+}
+
+.grid-4 {
+  width: 40%;
+}
+
+.grid-2 {
+  width: 20%;
+}
+
+body {
+  background-color: #fff;
+  font-family: Verdana, Arial, sans-serif;
+  color: #222222;
+}
+
+@media only screen and (min-width: 680px) and (max-width: 959px) {
+  body {
+    font-size: 125%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Palatino Linotype", Georgia, serif;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Palatino Linotype", Georgia, serif;
+}
+
+a {
+  color: #f27731;
+}
+
+.btn-success, .btn-error {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+}
+
+.btn-error {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#header {
+  border-radius: 6px;
+  border: 1px solid #000;
+  height: 60px;
+  background-color: #170a48;
+}
+
+@media only screen and (min-width: 960px) {
+  #header {
+    text-align: center;
+  }
+}
+
+#header #main-menu li {
+  display: inline;
+}
+
+#header #main-menu a {
+  color: #fff;
+}
+
+#main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 960px) {
+  #main #main {
+    width: auto;
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #main #content h1 {
+    text-align: center;
+  }
+}
+
+#footer {
+  height: 90px;
+  background-color: #ccf692;
+}
+/*# sourceMappingURL=main.css.map */
